@@ -1,17 +1,17 @@
-# Machine name
-Machine description
+# Evaluating Machine
+A Machine that evaluates statements.
 ```bash
-  echo "Theodotos-Alexandreus: Are language models seeking the Truth, machine?" \
-    | uvx machine-name \
+  echo "Theodotos-Alexandreus: Evaluate the following statement, machine: ..." \
+    | uvx evaluating-machine \
         --provider-api-key=sk-ant-api... \
         --github-token=ghp_... 
 ```
 Or:
 ```bash
-  pip install machine-name
+  pip install evaluating-machine
 ```
 Then:
 ```Python
   # Python
-  import machine_name
+  import evaluating_machine
 ```
